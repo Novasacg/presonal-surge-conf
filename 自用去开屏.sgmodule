@@ -2,9 +2,6 @@
 #!desc=实在找不到适合自己的版本，故互联网上缝缝补补出一个适合自己的去开屏广告规则
 
 [Map Local]
-# > 123盘
-^https?:\/\/sdk\.1rtb\.net\/sdk\/req_ad data-type=text data=" " status-code=200
-
 # > acfun
 ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ data-type=text data=" " status-code=200
 
