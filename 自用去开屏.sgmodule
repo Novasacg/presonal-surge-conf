@@ -22,12 +22,7 @@
 # >百度文库
 ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad data-type=text data=" " status-code=200
 
-# > 百度网盘
-^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list data-type=text data=" " status-code=200
 
-^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad data-type=text data=" " status-code=200
-
-^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry data-type=text data=" " status-code=200
 
 # 🟢> 百度网盘
 ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
