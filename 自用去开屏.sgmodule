@@ -23,11 +23,9 @@
 ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad data-type=text data=" " status-code=200
 
 # > 百度网盘
-^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list data-type=text data=" " status-code=200
+^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list data-type=text data-type=text data="{}"
 
-^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad data-type=text data=" " status-code=200
-
-^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry data-type=text data=" " status-code=200
+^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad data-type=text data-type=text data="{}"
 
 ^https?:\/\/pan\.baidu\.com\/(act\/(api\/activityentry|v2\/(bchannel|welfare)\/list)|rest\/2\.0\/pcs\/ad) data-type=text data="{}"
 
