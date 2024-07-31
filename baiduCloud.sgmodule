@@ -13,10 +13,10 @@
 
 [Script]
 # > 百度网盘_开屏广告@ddgksf2013
-baiduCloud.vip = type=http-response, pattern=^https?:\/\/pan\.baidu\.com\/api\/getsyscfg, script-path=https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js, requires-body=true, max-size=-1, timeout=60
+baiduCloud.vip = type=http-response, pattern=^https?:\/\/pan\.baidu\.com\/api\/getsyscfg, script-path=https://raw.githubusercontent.com/Novasacg/presonal-surge-conf/main/baiduCloud.js, requires-body=true, max-size=-1, timeout=60
 
 # > 百度网盘_会员权益@ddgksf2013
-baiduCloud.vip = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id, script-path=https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js, requires-body=true, max-size=-1, timeout=60
+baiduCloud.vip = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id, script-path=https://raw.githubusercontent.com/Novasacg/presonal-surge-conf/main/baiduCloud.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% pan.baidu.com
