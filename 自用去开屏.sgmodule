@@ -35,6 +35,9 @@
 # > 超星学习通
 ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig data-type=text data=" " status-code=200
 
+# > 超级课程表
+^https?:\/\/.+/V\d\/splash\/getSplashV\d\.action data-type=text data=" " status-code=200
+
 # > 菜鸟
 ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ data-type=text data=" " status-code=200
 
