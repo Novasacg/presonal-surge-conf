@@ -1,0 +1,5 @@
+#!name=代理接管优化
+#!desc=提高 surge 使用效率
+
+[General]
+compatibility-mode = 1
